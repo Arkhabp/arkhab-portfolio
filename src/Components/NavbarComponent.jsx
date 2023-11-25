@@ -23,7 +23,7 @@ const NavbarComponent = () => {
     <Flex
       position='sticky'
       top='0'
-      zIndex='1000'
+      zIndex='100'
       bgColor={useColorModeValue("primary.white", "fontColor.black")}
       mb='2'
     >

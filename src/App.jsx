@@ -5,17 +5,19 @@ import ExperiencePage from "./pages/ExperiencePage";
 import PortofolioPage from "./pages/PortofolioPage";
 import NavbarComponent from "./Components/NavbarComponent";
 import AboutMe from "./pages/AboutMe";
+import FooterComponent from "./Components/FooterComponent";
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <header>
-          <NavbarComponent />
-        </header>
+        <NavbarComponent />
+
         <AboutMe />
         <ExperiencePage />
         <PortofolioPage />
+
+        <FooterComponent />
       </BrowserRouter>
     </div>
   );

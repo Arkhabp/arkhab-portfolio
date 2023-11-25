@@ -154,7 +154,7 @@ const PortofolioPage = () => {
                   "primary.whiteDoff"
                 )}
                 ml={{ base: "6", xl: "9", md: "9" }}
-                mt={{ base: "5", xl: "10", md: "10" }}
+                mt={{ base: "8", xl: "8", md: "8" }}
               >
                 Graphic Design
               </Heading>

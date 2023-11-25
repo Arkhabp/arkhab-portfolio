@@ -148,7 +148,7 @@ const ExperiencePage = () => {
                 )}
                 ml={{ base: "6", xl: "9", md: "9" }}
                 // mx={{ base: "0", xl: "20", md: "15" }}
-                mt={{ base: "2", xl: "5", md: "8" }}
+                mt={{ base: "8", xl: "8", md: "8" }}
               >
                 Graphic Design
               </Heading>
