@@ -253,8 +253,12 @@ const HomePage = () => {
               desc='Activity'
               activityPoint={[
                 <ListItem key={1}>
-                  Abdi Jurnal Publikasi (AJP) Ragam Modus Cyber Crime di Era
-                  Digital 4.0. ISSN 2963- 3486.
+                  (MSIB Batch-5) Magang Merdeka x Emtek Group (PT. Abhimata
+                  Citra Abadi - Mobile App Developer).
+                </ListItem>,
+                <ListItem key={1}>
+                  (MSIB Batch-4) Studi Independent x LearningX "Essential
+                  Programing Course" (Full Stack Web Developer).
                 </ListItem>,
                 <ListItem key={2}>
                   {" "}
@@ -293,6 +297,7 @@ const HomePage = () => {
           </Box>
         </motion.div>
       </AnimatePresence>
+
       {/* Footer Start*/}
       <FooterComponent />
       {/* Footer End*/}
