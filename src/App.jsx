@@ -1,16 +1,23 @@
-import { Route, Routes } from "react-router-dom";
+import React from "react";
 
-import HomePage from "./pages/HomePage";
+import { BrowserRouter } from "react-router-dom";
 import ExperiencePage from "./pages/ExperiencePage";
 import PortofolioPage from "./pages/PortofolioPage";
+import NavbarComponent from "./Components/NavbarComponent";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' Component={HomePage} />
-      <Route path='/experience' Component={ExperiencePage} />
-      <Route path='/portofolio' Component={PortofolioPage} />
-    </Routes>
+    <div className='App'>
+      <BrowserRouter>
+        <header>
+          <NavbarComponent />
+        </header>
+        <AboutMe />
+        <ExperiencePage />
+        <PortofolioPage />
+      </BrowserRouter>
+    </div>
   );
 }
 

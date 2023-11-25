@@ -12,7 +12,8 @@ import {
   useColorModeValue,
   Icon,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { faBars, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ToggleColorMode from "./ToggleColorMode";
@@ -29,7 +30,7 @@ const NavbarComponent = () => {
       <Hide breakpoint='(max-width: 989px)'>
         <Flex w='100%' mx='20' py='6' display={"flex"} alignItems='center'>
           <Box display={"flex"}>
-            <Link to='/'>
+            <Link to='#about-me' smooth>
               <Heading
                 fontWeight={"bold"}
                 size={"md"}
@@ -42,7 +43,7 @@ const NavbarComponent = () => {
               </Heading>
             </Link>
 
-            <Link to='/experience'>
+            <Link to='#experience' smooth>
               <Heading
                 ml={8}
                 fontWeight={"bold"}
@@ -56,7 +57,7 @@ const NavbarComponent = () => {
               </Heading>
             </Link>
 
-            <Link to='/portofolio'>
+            <Link to='#portfolio' smooth>
               <Heading
                 ml={8}
                 fontWeight={"bold"}
@@ -107,18 +108,30 @@ const NavbarComponent = () => {
                 variant='outline'
               />
               <MenuList>
-                <Link to='/'>
-                  <MenuItem _focus={{ outline: "none" }} command='⌘A'>
+                <Link to='#about-me' smooth>
+                  <MenuItem
+                    key='about-me'
+                    _focus={{ outline: "none" }}
+                    command='⌘A'
+                  >
                     About Me
                   </MenuItem>
                 </Link>
-                <Link to='/experience'>
-                  <MenuItem _focus={{ outline: "none" }} command='⌘E'>
+                <Link to='#experience' smooth>
+                  <MenuItem
+                    key='experience'
+                    _focus={{ outline: "none" }}
+                    command='⌘E'
+                  >
                     Experience
                   </MenuItem>
                 </Link>
-                <Link to='/portofolio'>
-                  <MenuItem _focus={{ outline: "none" }} command='⌘P'>
+                <Link to='#portfolio' smooth>
+                  <MenuItem
+                    key='portfolio'
+                    _focus={{ outline: "none" }}
+                    command='⌘P'
+                  >
                     Portofolio
                   </MenuItem>
                 </Link>
@@ -128,7 +141,10 @@ const NavbarComponent = () => {
                   rel='noopener noreferrer'
                 >
                   <Flex alignItems='center' justifyContent='flex-end' px='4'>
-                    <MenuItem _focus={{ outline: "none" }}>
+                    <MenuItem
+                      key='download-resume'
+                      _focus={{ outline: "none" }}
+                    >
                       Download Resume
                     </MenuItem>
                     <Icon as={FontAwesomeIcon} icon={faDownload} />

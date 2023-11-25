@@ -34,7 +34,7 @@ const CardComponent = ({
           "linear(to-t, fontColor.dark, fontColor.black)"
         )}
         boxShadow={`0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06), -4px 0px 6px rgba(0, 0, 0, 0.1), 4px 0px 6px rgba(0, 0, 0, 0.1)`}
-        width={{ base: "100%", xl: "88%" }}
+        width={{ md: "100%", xl: "100%", md: "100%" }}
         mt='3'
       >
         <Image
