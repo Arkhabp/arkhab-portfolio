@@ -17,3 +17,12 @@
     opacity: 1;
   }
 }
+
+.active-link {
+  color: #3498db; /* warna label aktif */
+  font-weight: bold;
+}
+
+.navbar {
+  backdrop-filter: blur(10px); /* Ubah nilai sesuai kebutuhan */
+}

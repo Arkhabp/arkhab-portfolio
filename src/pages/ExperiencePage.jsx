@@ -97,14 +97,38 @@ const ExperiencePage = () => {
               <CardComponent
                 uni='PT. Abhimata Citra Abadi (EMTEK GROUP)'
                 fieldOfStudy='Intern Mobile Developer (React Native)'
-                year='August 2023 - Present'
+                year='August 2023 - December 2023'
                 logo={logoAca}
                 desc='Description'
                 activityPoint={[
                   <ListItem key={"ACA-1"}>
-                    Create / develop mobile app internal company using React
-                    Native by utilizing REST API for authorization, data access
-                    and session handling.
+                    Successfully developed a company-supporting application
+                    mobile from the ground up, utilizing the React Native
+                    library.
+                  </ListItem>,
+                  <ListItem key={"ACA-2"}>
+                    Sucessfully integrated Firebase Cloud Messaging into a React
+                    Native project.
+                  </ListItem>,
+                  <ListItem key={"ACA-3"}>
+                    Developed a attendance system by capturing location
+                    coordinates (longitude, latitude, and altitude) using the
+                    Google Maps API and seamlessly integrating it with the React
+                    Native Camera.
+                  </ListItem>,
+                  <ListItem key={"ACA-3"}>
+                    Achieved the implementation of an efficient meeting room
+                    reservation system by consuming API responses from the
+                    backend developer.
+                  </ListItem>,
+                  <ListItem key={"ACA-3"}>
+                    Collaborated with backend developer to define efficient API
+                    invocation methods in the mobile application system.
+                  </ListItem>,
+                  <ListItem key={"ACA-3"}>
+                    Implemented UI&UX designs from Figma into mobile views using
+                    the React Native library, resulting in a seamless and
+                    visually appealing user experience.
                   </ListItem>,
                 ]}
                 titleTools='Technology Used:'

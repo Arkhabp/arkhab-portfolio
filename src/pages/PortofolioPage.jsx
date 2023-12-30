@@ -20,6 +20,7 @@ import spartaPage from "../assets/img/SpartaWeb.png";
 import fanbookPage from "../assets/img/FanBookWeb.png";
 import movieRatePage from "../assets/img/MovieRateWeb.png";
 import potfolioPage from "../assets/img/porto-website.png";
+import ACAMobilePage from "../assets/img/ACAMobilePage.jpeg";
 import flask from "../assets/img/FlaskImg.png";
 import mongoDb from "../assets/img/MongoDbImg.png";
 import jquery from "../assets/img/JqueryImg.png";
@@ -28,6 +29,7 @@ import html from "../assets/img/HtmlIgm.png";
 import css from "../assets/img/CssImg.png";
 import chakraUi from "../assets/img/chakraui.png";
 import react from "../assets/img/React.png";
+import javaScript from "../assets/img/javascriptImg.jpg";
 import GdCardComponent from "../Components/GdCardComponent";
 import gambar1 from "../assets/img/Mockup STTD.png";
 import gambar2 from "../assets/img/Mockup Semua Orang Pernah Saki Hati.png";
@@ -40,6 +42,7 @@ const PortofolioPage = () => {
   const withJquery = [flask, mongoDb, jquery, bootsrap, html, css];
   const withoutJquery = [flask, mongoDb, bootsrap, html, css];
   const reactChakra = [react, chakraUi];
+  const reactJavaScript = [react, javaScript];
   return (
     <section className='portfolio' id='portfolio'>
       <Box mt='10'>
@@ -100,6 +103,14 @@ const PortofolioPage = () => {
                 mt={{ base: "2", xl: "5" }}
                 // mx={{ base: "0", xl: "20" }}
               >
+                <ProgramingPortoCard
+                  img={ACAMobilePage}
+                  title={"ACA Mobile App"}
+                  desc={"HRIS Mobile App for PT. Abhimata Citra Abadi"}
+                  linkGithub={"/"}
+                  linkPreview={"/"}
+                  techUsed={reactJavaScript}
+                />
                 <ProgramingPortoCard
                   img={potfolioPage}
                   title={"Portfolio Webiste"}

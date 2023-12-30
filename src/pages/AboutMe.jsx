@@ -45,6 +45,7 @@ const AboutMe = () => {
       {/* Navabar End */}
 
       <Box>
+        <NavbarComponent />
         <AnimatePresence>
           <motion.div
             initial={{ y: 50, opacity: 0 }}
@@ -246,11 +247,11 @@ const AboutMe = () => {
                 desc='Activity'
                 activityPoint={[
                   <ListItem key={1}>
-                    (MSIB Batch-5) Magang Merdeka x Emtek Group (PT. Abhimata
+                    (MSIB Batch-5) Magang Merdeka at Emtek Group (PT. Abhimata
                     Citra Abadi - Mobile App Developer).
                   </ListItem>,
                   <ListItem key={1}>
-                    (MSIB Batch-4) Studi Independent x LearningX "Essential
+                    (MSIB Batch-4) Studi Independent at LearningX "Essential
                     Programing Course" (Full Stack Web Developer).
                   </ListItem>,
                   <ListItem key={2}>

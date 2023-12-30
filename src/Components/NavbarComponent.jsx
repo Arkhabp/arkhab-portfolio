@@ -17,20 +17,22 @@ import { HashLink as Link } from "react-router-hash-link";
 import { faBars, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ToggleColorMode from "./ToggleColorMode";
+import "../dist/css/theme";
 
 const NavbarComponent = () => {
   return (
     <Flex
+      className='navbar'
       position='sticky'
       top='0'
       zIndex='100'
-      bgColor={useColorModeValue("primary.white", "fontColor.black")}
+      bgColor={useColorModeValue("transparent", "fontColor.black")}
       mb='2'
     >
       <Hide breakpoint='(max-width: 989px)'>
         <Flex w='100%' mx='20' py='6' display={"flex"} alignItems='center'>
           <Box display={"flex"}>
-            <Link to='#about-me' smooth>
+            <Link to='#about-me' smooth activeClassName='active-link'>
               <Heading
                 fontWeight={"bold"}
                 size={"md"}
@@ -42,8 +44,7 @@ const NavbarComponent = () => {
                 About Me
               </Heading>
             </Link>
-
-            <Link to='#experience' smooth>
+            <Link to='#experience' smooth activeClassName='active-link'>
               <Heading
                 ml={8}
                 fontWeight={"bold"}
@@ -56,8 +57,7 @@ const NavbarComponent = () => {
                 Experience
               </Heading>
             </Link>
-
-            <Link to='#portfolio' smooth>
+            <Link to='#portfolio' smooth activeClassName='active-link'>
               <Heading
                 ml={8}
                 fontWeight={"bold"}
@@ -67,7 +67,7 @@ const NavbarComponent = () => {
                   "primary.whiteDoff"
                 )}
               >
-                Portofolio
+                Portfolio
               </Heading>
             </Link>
           </Box>
