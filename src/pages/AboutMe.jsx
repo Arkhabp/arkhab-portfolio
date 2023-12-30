@@ -45,7 +45,6 @@ const AboutMe = () => {
       {/* Navabar End */}
 
       <Box>
-        <NavbarComponent />
         <AnimatePresence>
           <motion.div
             initial={{ y: 50, opacity: 0 }}
