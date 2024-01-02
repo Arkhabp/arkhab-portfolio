@@ -157,7 +157,7 @@ const NavbarComponent = () => {
                   </MenuItem>
                 </Link>
                 <a
-                  href='https://drive.google.com/file/d/1P6NFdaVxn7UrLb05EoJq-qpCze0M_i8Y/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1QsXoSthybAhpCJsLzR_jjnYHa-HoAplZ/view?usp=sharing'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
