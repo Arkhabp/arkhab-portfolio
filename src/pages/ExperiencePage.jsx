@@ -44,7 +44,12 @@ const ExperiencePage = () => {
       {/* Navabar Start */}
       {/* <NavbarComponent /> */}
       {/* Navabar End */}
-      <Box mt='10'>
+      <Box
+        mt='10'
+        py={{ base: "12", xl: "20" }}
+        borderTop='2px'
+        borderColor='gray.200'
+      >
         <AnimatePresence>
           <motion.div
             initial={{ y: 50, opacity: 0 }}
@@ -89,7 +94,7 @@ const ExperiencePage = () => {
                 mt={{ base: "2", xl: "3" }}
                 id='my-experience'
               >
-                Programing
+                programming
               </Heading>
               {/* Subtitle End*/}
 

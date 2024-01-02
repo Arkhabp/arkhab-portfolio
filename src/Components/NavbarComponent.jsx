@@ -27,10 +27,9 @@ const NavbarComponent = () => {
       top='0'
       zIndex='100'
       bgColor={useColorModeValue("transparent", "fontColor.black")}
-      mb='2'
     >
       <Hide breakpoint='(max-width: 989px)'>
-        <Flex w='100%' mx='20' py='6' display={"flex"} alignItems='center'>
+        <Flex w='100%' mx='20' py='5' display={"flex"} alignItems='center'>
           <Box display={"flex"}>
             <Link to='#about-me' smooth activeClassName='active-link'>
               <Heading
@@ -55,6 +54,19 @@ const NavbarComponent = () => {
                 )}
               >
                 Experience
+              </Heading>
+            </Link>
+            <Link to='#education' smooth activeClassName='active-link'>
+              <Heading
+                ml={8}
+                fontWeight={"bold"}
+                size={"md"}
+                color={useColorModeValue(
+                  "fontColor.black",
+                  "primary.whiteDoff"
+                )}
+              >
+                Education
               </Heading>
             </Link>
             <Link to='#portfolio' smooth activeClassName='active-link'>
@@ -123,7 +135,16 @@ const NavbarComponent = () => {
                     _focus={{ outline: "none" }}
                     command='⌘E'
                   >
-                    Experience
+                    Experience{" "}
+                  </MenuItem>
+                </Link>
+                <Link to='#education' smooth>
+                  <MenuItem
+                    key='education'
+                    _focus={{ outline: "none" }}
+                    command='⌘E'
+                  >
+                    Education
                   </MenuItem>
                 </Link>
                 <Link to='#portfolio' smooth>

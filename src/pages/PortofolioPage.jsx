@@ -9,10 +9,10 @@ import {
   Button,
 } from "@chakra-ui/react";
 
+import ProgramingPortoCard from "../Components/ProgramingPortoCard";
 import { faArrowRight, faBrain } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import ProgramingPortoCard from "../Components/ProgramingPortoCard";
 import FooterComponent from "../Components/FooterComponent";
 
 import nourishPage from "../assets/img/NourishWeb.png";
@@ -45,7 +45,7 @@ const PortofolioPage = () => {
   const reactJavaScript = [react, javaScript];
   return (
     <section className='portfolio' id='portfolio'>
-      <Box mt='10'>
+      <Box py={{ base: "12", xl: "20" }} borderTop='2px' borderColor='gray.200'>
         {/* Navabar Start */}
         {/* <NavbarComponent /> */}
         {/* Navabar End */}
@@ -92,11 +92,11 @@ const PortofolioPage = () => {
                 ml={{ base: "6", xl: "9", md: "9" }}
                 mt={{ base: "5", xl: "5" }}
               >
-                Programing
+                programming
               </Heading>
               {/* Subtitle End*/}
 
-              {/* Programing Porto Card Start */}
+              {/* programming Porto Card Start */}
               <SimpleGrid
                 minChildWidth='270px'
                 spacing='5'
@@ -154,7 +154,7 @@ const PortofolioPage = () => {
                   techUsed={withoutJquery}
                 />
               </SimpleGrid>
-              {/* Programing Porto Card End */}
+              {/* programming Porto Card End */}
 
               {/* Subtitle Start*/}
               <Heading

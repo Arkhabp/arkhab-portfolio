@@ -17,7 +17,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import { motion } from "framer-motion";
 
-const ProgramingPortoCard = ({
+const programmingPortoCard = ({
   img,
   title,
   desc,
@@ -121,4 +121,4 @@ const ProgramingPortoCard = ({
   );
 };
 
-export default ProgramingPortoCard;
+export default programmingPortoCard;
