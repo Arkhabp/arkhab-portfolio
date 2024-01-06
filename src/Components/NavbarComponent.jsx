@@ -91,7 +91,7 @@ const NavbarComponent = () => {
               rel='noopener noreferrer'
             >
               <Heading fontWeight={"bold"} size={"md"} mr='4'>
-                Resume
+                My Resume
               </Heading>
             </a>
             <ToggleColorMode />
@@ -166,7 +166,7 @@ const NavbarComponent = () => {
                       key='download-resume'
                       _focus={{ outline: "none" }}
                     >
-                      Resume
+                      My Resume
                     </MenuItem>
                     <Icon as={FontAwesomeIcon} icon={faDownload} />
                   </Flex>
