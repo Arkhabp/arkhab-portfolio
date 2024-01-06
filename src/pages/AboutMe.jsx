@@ -160,7 +160,7 @@ const AboutMe = () => {
                           alignItems='center'
                           // bg='black'
                           w='100%'
-                          direction={{ base: "column", xl: "row" }}
+                          direction={{ base: "column", lg: "row", xl: "row" }}
                         >
                           <Flex gap='2' mb='5'>
                             <Box display='flex' alignItems='center'>
