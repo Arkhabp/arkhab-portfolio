@@ -22,61 +22,61 @@ import "../dist/css/theme";
 const NavbarComponent = () => {
   return (
     <Flex
-      className='navbar'
-      position='sticky'
-      top='0'
-      zIndex='100'
-      bgColor={useColorModeValue("transparent", "fontColor.black")}
+      className="navbar"
+      position="sticky"
+      top="0"
+      zIndex="100"
+      bgColor={useColorModeValue('transparent', 'fontColor.black')}
     >
-      <Hide breakpoint='(max-width: 989px)'>
-        <Flex w='100%' mx='20' py='5' display={"flex"} alignItems='center'>
-          <Box display={"flex"}>
-            <Link to='#about-me' smooth activeClassName='active-link'>
+      <Hide breakpoint="(max-width: 989px)">
+        <Flex w="100%" mx="20" py="5" display={'flex'} alignItems="center">
+          <Box display={'flex'}>
+            <Link to="#about-me" smooth activeClassName="active-link">
               <Heading
-                fontWeight={"bold"}
-                size={"md"}
+                fontWeight={'bold'}
+                size={'md'}
                 color={useColorModeValue(
-                  "fontColor.black",
-                  "primary.whiteDoff"
+                  'fontColor.black',
+                  'primary.whiteDoff',
                 )}
               >
                 About Me
               </Heading>
             </Link>
-            <Link to='#experience' smooth activeClassName='active-link'>
+            <Link to="#experience" smooth activeClassName="active-link">
               <Heading
                 ml={8}
-                fontWeight={"bold"}
-                size={"md"}
+                fontWeight={'bold'}
+                size={'md'}
                 color={useColorModeValue(
-                  "fontColor.black",
-                  "primary.whiteDoff"
+                  'fontColor.black',
+                  'primary.whiteDoff',
                 )}
               >
                 Experience
               </Heading>
             </Link>
-            <Link to='#education' smooth activeClassName='active-link'>
+            <Link to="#education" smooth activeClassName="active-link">
               <Heading
                 ml={8}
-                fontWeight={"bold"}
-                size={"md"}
+                fontWeight={'bold'}
+                size={'md'}
                 color={useColorModeValue(
-                  "fontColor.black",
-                  "primary.whiteDoff"
+                  'fontColor.black',
+                  'primary.whiteDoff',
                 )}
               >
                 Education
               </Heading>
             </Link>
-            <Link to='#portfolio' smooth activeClassName='active-link'>
+            <Link to="#portfolio" smooth activeClassName="active-link">
               <Heading
                 ml={8}
-                fontWeight={"bold"}
-                size={"md"}
+                fontWeight={'bold'}
+                size={'md'}
                 color={useColorModeValue(
-                  "fontColor.black",
-                  "primary.whiteDoff"
+                  'fontColor.black',
+                  'primary.whiteDoff',
                 )}
               >
                 Portfolio
@@ -84,13 +84,13 @@ const NavbarComponent = () => {
             </Link>
           </Box>
           <Spacer />
-          <Flex alignItems='center'>
+          <Flex alignItems="center">
             <a
-              href='https://drive.google.com/file/d/1QsXoSthybAhpCJsLzR_jjnYHa-HoAplZ/view?usp=sharing'
-              target='_blank'
-              rel='noopener noreferrer'
+              href="https://drive.google.com/file/d/1QD2K2ua_c6NtoGL71afikiGjIbFxJebn/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Heading fontWeight={"bold"} size={"md"} mr='4'>
+              <Heading fontWeight={'bold'} size={'md'} mr="4">
                 My Resume
               </Heading>
             </a>
@@ -99,72 +99,72 @@ const NavbarComponent = () => {
         </Flex>
       </Hide>
 
-      <Show breakpoint='(max-width: 989px)'>
+      <Show breakpoint="(max-width: 989px)">
         <Flex
-          w='100%'
+          w="100%"
           px={5}
-          display={"flex"}
-          bgColor={"fontColor.white"}
-          alignItems='center'
+          display={'flex'}
+          bgColor={'fontColor.white'}
+          alignItems="center"
         >
           <Box>
             <ToggleColorMode />
           </Box>
           <Spacer />
-          <Box py='3'>
+          <Box py="3">
             <Menu>
               <MenuButton
                 as={FontAwesomeIcon}
                 icon={faBars}
-                aria-label='Options'
-                variant='outline'
+                aria-label="Options"
+                variant="outline"
               />
               <MenuList>
-                <Link to='#about-me' smooth>
+                <Link to="#about-me" smooth>
                   <MenuItem
-                    key='about-me'
-                    _focus={{ outline: "none" }}
-                    command='⌘A'
+                    key="about-me"
+                    _focus={{ outline: 'none' }}
+                    command="⌘A"
                   >
                     About Me
                   </MenuItem>
                 </Link>
-                <Link to='#experience' smooth>
+                <Link to="#experience" smooth>
                   <MenuItem
-                    key='experience'
-                    _focus={{ outline: "none" }}
-                    command='⌘E'
+                    key="experience"
+                    _focus={{ outline: 'none' }}
+                    command="⌘E"
                   >
-                    Experience{" "}
+                    Experience{' '}
                   </MenuItem>
                 </Link>
-                <Link to='#education' smooth>
+                <Link to="#education" smooth>
                   <MenuItem
-                    key='education'
-                    _focus={{ outline: "none" }}
-                    command='⌘E'
+                    key="education"
+                    _focus={{ outline: 'none' }}
+                    command="⌘E"
                   >
                     Education
                   </MenuItem>
                 </Link>
-                <Link to='#portfolio' smooth>
+                <Link to="#portfolio" smooth>
                   <MenuItem
-                    key='portfolio'
-                    _focus={{ outline: "none" }}
-                    command='⌘P'
+                    key="portfolio"
+                    _focus={{ outline: 'none' }}
+                    command="⌘P"
                   >
                     Portofolio
                   </MenuItem>
                 </Link>
                 <a
-                  href='https://drive.google.com/file/d/1QsXoSthybAhpCJsLzR_jjnYHa-HoAplZ/view?usp=sharing'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  href="https://drive.google.com/file/d/1QsXoSthybAhpCJsLzR_jjnYHa-HoAplZ/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <Flex alignItems='center' justifyContent='flex-end' px='4'>
+                  <Flex alignItems="center" justifyContent="flex-end" px="4">
                     <MenuItem
-                      key='download-resume'
-                      _focus={{ outline: "none" }}
+                      key="download-resume"
+                      _focus={{ outline: 'none' }}
                     >
                       My Resume
                     </MenuItem>
