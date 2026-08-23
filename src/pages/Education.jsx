@@ -55,8 +55,8 @@ const EducationPage = () => {
         {/* Card Education Start */}
         <CardEducation
           uni='Universitas Pamulang'
-          fieldOfStudy="Bachelor's degree, Informatics Engineering"
-          year='2021 - Present'
+          fieldOfStudy="Bachelor's degree, Informatics Engineering, GPA 3.86/4.00"
+          year='2021 - 2025'
           logo={logoUnpam}
           desc='Activity'
           activityPoint={[

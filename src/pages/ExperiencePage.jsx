@@ -115,16 +115,23 @@ const ExperiencePage = () => {
                 desc="Description"
                 activityPoint={[
                   <ListItem key={'CNN-1'}>
-                    Developed website interfaces based on UI/UX designs using
-                    Bootstrap and Tailwind CSS in Laravel projects.
+                    Developed internal company systems and event websites,
+                    including Paperless Approval, Document Management System
+                    (DMS), Wellnest Festival, The Big Idea Forum (TBIF), and
+                    Indonesia Economic Forum 2026.
                   </ListItem>,
                   <ListItem key={'CNN-2'}>
-                    Performed debugging and improvements to ensure proper
-                    functionality and visual consistency across the website.
+                    Transformed UI/UX designs into responsive web interfaces
+                    using Bootstrap, Tailwind CSS, Laravel, and React.js.
                   </ListItem>,
                   <ListItem key={'CNN-3'}>
-                    Collaborated closely with backend developers and UI/UX
-                    designers to build and deliver complete web applications.
+                    Improved user experience by identifying and resolving
+                    frontend issues and interface bugs.
+                  </ListItem>,
+                  <ListItem key={'CNN-4'}>
+                    Collaborated closely with backend engineers and UI/UX
+                    designers to deliver web applications aligned with business
+                    requirements.
                   </ListItem>,
                 ]}
                 titleTools="Technology Used:"
@@ -136,25 +143,26 @@ const ExperiencePage = () => {
               <CardComponent
                 uni="LP3ES Project (Freelance - Remote)"
                 fieldOfStudy="Mobile Front-End Developer (React Native)"
-                year="September 2024 - March 2025"
+                year="September 2024 - December 2025"
                 logo={logoLP3ES}
                 desc="Description"
                 activityPoint={[
                   <ListItem key={'LP3ES-1'}>
-                    Developed e-commerce application for selling physical books
-                    and digital books for the LP3ES institution.
+                    Developed an e-commerce mobile application for purchasing
+                    physical and digital books published by LP3ES (Lembaga
+                    Penelitian, Pendidikan, dan Penerangan Ekonomi dan Sosial).
                   </ListItem>,
                   <ListItem key={'LP3ES-2'}>
-                    Implemented UI designs into components using React Native
-                    with TypeScript programming language.
+                    Worked closely with backend developers and UI/UX designers
+                    to ensure consistent implementation of application features.
                   </ListItem>,
                   <ListItem key={'LP3ES-3'}>
-                    Sucessfully integrated client-side features with the
-                    database through RESTful API.
+                    Integrated RESTful APIs and managed application state using
+                    Redux.
                   </ListItem>,
-                  <ListItem key={'LP3ES-3'}>
-                    Sucessfully developed reusable components to streamline and
-                    simplify the development process.
+                  <ListItem key={'LP3ES-4'}>
+                    Built reusable components using TypeScript (TSX) to improve
+                    development efficiency and maintainability.
                   </ListItem>,
                 ]}
                 titleTools="Technology Used:"
@@ -171,33 +179,20 @@ const ExperiencePage = () => {
                 desc="Description"
                 activityPoint={[
                   <ListItem key={'ACA-1'}>
-                    Successfully developed a company-supporting application
-                    mobile from the ground up, utilizing the React Native
-                    library.
+                    Developed an internal Human Resource Information System
+                    (HRIS) mobile application using React Native.
                   </ListItem>,
                   <ListItem key={'ACA-2'}>
-                    Sucessfully integrated Firebase Cloud Messaging into a React
-                    Native project.
+                    Integrated Firebase Cloud Messaging (FCM) to enable push
+                    notifications.
                   </ListItem>,
                   <ListItem key={'ACA-3'}>
-                    Developed a attendance system by capturing location
-                    coordinates (longitude, latitude, and altitude) using the
-                    Google Maps API and seamlessly integrating it with the React
-                    Native Camera.
+                    Implemented attendance, meeting room reservation, leave
+                    request, and reimbursement features.
                   </ListItem>,
                   <ListItem key={'ACA-3'}>
-                    Achieved the implementation of an efficient meeting room
-                    reservation system by consuming API responses from the
-                    backend developer.
-                  </ListItem>,
-                  <ListItem key={'ACA-3'}>
-                    Collaborated with backend developer to define efficient API
-                    invocation methods in the mobile application system.
-                  </ListItem>,
-                  <ListItem key={'ACA-3'}>
-                    Implemented UI&UX designs from Figma into mobile views using
-                    the React Native library, resulting in a seamless and
-                    visually appealing user experience.
+                    Implement and create UI/UX designs into HRIS applications
+                    for responsive, attractive, and easy to-use interfaces.
                   </ListItem>,
                 ]}
                 titleTools="Technology Used:"
